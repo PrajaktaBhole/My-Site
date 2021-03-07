@@ -1,0 +1,167 @@
+/*div {
+  background-color: #ccf2f4;
+}
+*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 4.375rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  color: #66BFBF;
+}
+
+.subtitle {
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2;   /*Changes the distance btw whatever is above subtitle and the subtitle(in this case) */
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  margin-top: 50px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+hr {
+  width: 80px;
+  border-width: 10px;
+  border-color: #EAF6F6;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: dotted;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  font-family: 'Merriweather', serif;
+  margin: 0 20px;
+  font-size: 15px;
+  text-decoration:none;
+}
+
+a:hover {                        /* TO change the color when we hover over the links*/
+  color: #EAF6F6;
+}
+
+.profile {
+  margin: 50px auto ;
+}
+
+.descriptions {
+  font-size: 20px;
+  width: 30%;
+  margin: auto;
+}
+
+.top-container {
+  background-color: #ccf2f4;
+  padding: 20px;
+}
+.skill-row {
+  width: 50%;
+  margin:100px auto 100px auto;
+  line-height: 2;
+}
+
+.girl-image {
+  height: 200px;
+  width: 200px;
+}
+
+.skill-image1 {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  float: left;             /* Shifts the image to the left side of the div. If we want to only wrap the title part around the img and the description part to be below the img we can use clear property*/
+  padding-right: 50px;
+}
+
+.skill-image2 {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  float: right;            /* Shifts the image to the right  side of the div */
+  padding-left: 50px;
+}
+
+.mail {
+  height: 50px;
+  width: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+}
+
+.top-cloud {
+  position: relative;
+  left: 400px;
+  top: 50px;
+}
+
+.contact-me {
+  margin-bottom: 50px;
+}
+
+.bottom-container {
+  padding-bottom: 20px;
+  background-color: #66BFBF;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.btn {
+  color: #11999E;
+  padding: 20px;
+}
+
+.portfolio {
+  padding-top: 20px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  font-size: 20px;
+  background: #66BFBF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #22a882;
+  text-decoration: none;
+}
